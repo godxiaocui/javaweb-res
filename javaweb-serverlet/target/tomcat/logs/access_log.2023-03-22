@@ -19,3 +19,12 @@
 0:0:0:0:0:0:0:1 - - [22/Mar/2023:11:43:25 +0800] "POST /loginServlet HTTP/1.1" 200 6 http-bio-8080-exec-1 312
 0:0:0:0:0:0:0:1 - - [22/Mar/2023:11:43:43 +0800] "POST /loginServlet HTTP/1.1" 200 6 http-bio-8080-exec-3 61
 0:0:0:0:0:0:0:1 - - [22/Mar/2023:11:55:34 +0800] "GET /ResponseDemo3 HTTP/1.1" 200 17 http-bio-8080-exec-5 8
+0:0:0:0:0:0:0:1 - - [22/Mar/2023:15:01:35 +0800] "GET / HTTP/1.1" 404 951 http-bio-8080-exec-1 16
+0:0:0:0:0:0:0:1 - - [22/Mar/2023:15:01:35 +0800] "GET / HTTP/1.1" 404 951 http-bio-8080-exec-3 0
+0:0:0:0:0:0:0:1 - - [22/Mar/2023:15:02:00 +0800] "GET /register.html HTTP/1.1" 200 1322 http-bio-8080-exec-4 5
+0:0:0:0:0:0:0:1 - - [22/Mar/2023:15:02:00 +0800] "GET /css/register.css HTTP/1.1" 200 2659 http-bio-8080-exec-5 2
+0:0:0:0:0:0:0:1 - - [22/Mar/2023:15:02:00 +0800] "GET /imgs/reg_bg_min.jpg HTTP/1.1" 200 389286 http-bio-8080-exec-7 1
+0:0:0:0:0:0:0:1 - - [22/Mar/2023:15:02:08 +0800] "POST /registerServlet HTTP/1.1" 200 3 http-bio-8080-exec-6 262
+0:0:0:0:0:0:0:1 - - [22/Mar/2023:15:02:19 +0800] "POST /registerServlet HTTP/1.1" 500 4774 http-bio-8080-exec-9 62
+0:0:0:0:0:0:0:1 - - [22/Mar/2023:15:04:22 +0800] "GET /register.html HTTP/1.1" 304 - http-bio-8080-exec-1 17
+0:0:0:0:0:0:0:1 - - [22/Mar/2023:15:04:28 +0800] "POST /registerServlet HTTP/1.1" 200 - http-bio-8080-exec-3 296
