@@ -1,5 +1,6 @@
 package com.czh.javaweb.web;
 
+import com.czh.javaweb.Utils.SqlSessionUtils;
 import com.czh.javaweb.mapper.UserMapper;
 import com.czh.javaweb.pojo.User;
 import org.apache.ibatis.io.Resources;
@@ -22,9 +23,8 @@ public class registerServlet extends HttpServlet {
         String password = request.getParameter("password");
         User user = new User(username, password);
         // mybatis
-        InputStream resourceAsStream = Resources.getResourceAsStream("mybatis-config.xml");
-        SqlSessionFactory build = new SqlSessionFactoryBuilder().build(resourceAsStream);
-        SqlSession sqlSession = build.openSession(true);
+        SqlSessionFactory sqlsessionFactory = SqlSessionUtils.getSqlsessionFactory();
+        SqlSession sqlSession = sqlsessionFactory.openSession(true);
         UserMapper mapper = sqlSession.getMapper(UserMapper.class);
         User user1 = mapper.selectUserName(username);
         if (user1 != null){
