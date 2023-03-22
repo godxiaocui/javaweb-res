@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--
+        属性：default默认的环境
+        环境可以用多个
+    -->
+    <!--
+MyBatis核心配置文件中，标签的顺序：
+properties?,settings?,typeAliases?,typeHandlers?,
+objectFactory?,objectWrapperFactory?,reflectorFactory?,
+plugins?,environments?,databaseIdProvider?,mappers?
+-->
+    <!--引入properties文件-->
+    <properties resource="jdbc.properties"/>
+    <typeAliases>
+        <!--
+        typeAlias：设置某个类型的别名
+        属性：
+        type：设置需要设置别名的类型
+        alias：设置某个类型的别名，若不设置该属性，那么该类型拥有默认的别名，即类名
+        且不区分大小写
+        -->
+        <!--<typeAlias type="" alias=""></typeAlias>-->
+        <!--以包为单位，将包下所有的类型设置默认的类型别名，即类名且不区分大小写-->
+        <package name="com.czh.javaweb.pojo"/>
+    </typeAliases>
+
+    <environments default="development">
+        <!--
+environment 设置一个具体的连接数据库的环境
+id 不能重复唯一标识
+ctrl+shift+/快捷注释
+-->
+        <environment id="development">
+            <!--
+            transactionManager 事务管理
+            type：设置事务管理的方式
+            type  JDBC|MANAGE
+            JDBC 原生的JDBC 原生事务管理
+            MANAGE 类似spring
+            -->
+            <transactionManager type="JDBC"/>
+            <!--
+                dataSource数据源；比如德鲁伊
+                type 数据源类型
+                type：“POOLED|UNPOOLED|JNDI”
+                POOLED使用数据库连接池，帮助我们管理文件
+                UNPOOLED 不使用数据库连接 池。每次新的连接
+                JNDI 上下文的连接
+            -->
+            <dataSource type="POOLED">
+                <property name="driver" value="${jdbc.driver}"/>
+                <property name="url" value="${jdbc.url}"/>
+                <property name="username" value="${jdbc.name}"/>
+                <property name="password" value="${jdbc.password}"/>
+            </dataSource>
+        </environment>
+
+        <environment id="test">
+
+            <transactionManager type="JDBC"/>
+
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://localhost:3306/javaweb?serverTimezone=UTC"/>
+                <property name="username" value="root"/>
+                <property name="password" value="czh66221183"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+    <mappers>
+        <!--<mapper resource=""/>-->
+        <!--
+        以包为单位引入映射文件
+        要求：
+        1、mapper接口所在的包要和映射文件所在的包一致
+        2、mapper接口要和映射文件的名字一致
+        -->
+        <package name="com.czh.javaweb.mapper"/>
+    </mappers>
+</configuration>

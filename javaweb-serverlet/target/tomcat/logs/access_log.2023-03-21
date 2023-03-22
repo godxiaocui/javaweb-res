@@ -181,3 +181,5 @@
 0:0:0:0:0:0:0:1 - - [21/Mar/2023:22:17:02 +0800] "GET /ResponseDemo4 HTTP/1.1" 200 328762 http-bio-8080-exec-3 7
 0:0:0:0:0:0:0:1 - - [21/Mar/2023:22:17:13 +0800] "GET /ResponseDemo3 HTTP/1.1" 200 17 http-bio-8080-exec-4 5
 0:0:0:0:0:0:0:1 - - [21/Mar/2023:22:17:17 +0800] "GET /ResponseDemo4 HTTP/1.1" 200 328762 http-bio-8080-exec-5 6
+0:0:0:0:0:0:0:1 - - [21/Mar/2023:22:45:59 +0800] "GET / HTTP/1.1" 404 951 http-bio-8080-exec-1 13
+0:0:0:0:0:0:0:1 - - [21/Mar/2023:22:46:17 +0800] "GET /ResponseDemo4 HTTP/1.1" 200 328762 http-bio-8080-exec-3 14
