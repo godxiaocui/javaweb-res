@@ -19,4 +19,34 @@ public class BrandService {
         sqlSession.close();
         return  brands;
     }
+
+    public  void addBrand(Brand brand){
+        SqlSession sqlSession = sqlSessionFactory.openSession(true);
+        BrandMapper mapper = sqlSession.getMapper(BrandMapper.class);
+        mapper.add(brand);
+        sqlSession.close();
+    }
+
+    public Brand selectById(int id){
+
+        SqlSession sqlSession = sqlSessionFactory.openSession(true);
+        BrandMapper mapper = sqlSession.getMapper(BrandMapper.class);
+        Brand brand = mapper.selectById(id);
+        sqlSession.close();
+        return  brand;
+    }
+
+    public  void updateBrand(Brand brand){
+        SqlSession sqlSession = sqlSessionFactory.openSession(true);
+        BrandMapper mapper = sqlSession.getMapper(BrandMapper.class);
+        mapper.update(brand);
+        sqlSession.close();
+    }
+
+    public void deleteById(int id){
+        SqlSession sqlSession = sqlSessionFactory.openSession(true);
+        BrandMapper mapper = sqlSession.getMapper(BrandMapper.class);
+        mapper.deleteById(id);
+        sqlSession.close();
+    }
 }

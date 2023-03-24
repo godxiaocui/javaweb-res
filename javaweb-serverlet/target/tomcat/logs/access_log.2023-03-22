@@ -28,3 +28,7 @@
 0:0:0:0:0:0:0:1 - - [22/Mar/2023:15:02:19 +0800] "POST /registerServlet HTTP/1.1" 500 4774 http-bio-8080-exec-9 62
 0:0:0:0:0:0:0:1 - - [22/Mar/2023:15:04:22 +0800] "GET /register.html HTTP/1.1" 304 - http-bio-8080-exec-1 17
 0:0:0:0:0:0:0:1 - - [22/Mar/2023:15:04:28 +0800] "POST /registerServlet HTTP/1.1" 200 - http-bio-8080-exec-3 296
+0:0:0:0:0:0:0:1 - - [22/Mar/2023:17:02:42 +0800] "GET / HTTP/1.1" 404 951 http-bio-8080-exec-1 16
+0:0:0:0:0:0:0:1 - - [22/Mar/2023:17:02:55 +0800] "GET /index.html HTTP/1.1" 404 971 http-bio-8080-exec-3 3
+0:0:0:0:0:0:0:1 - - [22/Mar/2023:17:03:33 +0800] "GET / HTTP/1.1" 404 951 http-bio-8080-exec-1 19
+0:0:0:0:0:0:0:1 - - [22/Mar/2023:17:03:39 +0800] "GET /index.html HTTP/1.1" 404 971 http-bio-8080-exec-3 3

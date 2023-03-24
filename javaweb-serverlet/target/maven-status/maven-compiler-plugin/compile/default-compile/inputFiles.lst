@@ -1,7 +1,9 @@
 /Users/cuizhiheng/maven/ctrip-workspace/javaweb-res/javaweb-serverlet/src/main/java/com/czh/javaweb/web/Servlet.java
 /Users/cuizhiheng/maven/ctrip-workspace/javaweb-res/javaweb-serverlet/src/main/java/com/czh/javaweb/web/Servlet3.java
 /Users/cuizhiheng/maven/ctrip-workspace/javaweb-res/javaweb-serverlet/src/main/java/com/czh/javaweb/mapper/UserMapper.java
+/Users/cuizhiheng/maven/ctrip-workspace/javaweb-res/javaweb-serverlet/src/main/java/com/czh/javaweb/Utils/SqlSessionUtils.java
 /Users/cuizhiheng/maven/ctrip-workspace/javaweb-res/javaweb-serverlet/src/main/java/com/czh/javaweb/Main.java
+/Users/cuizhiheng/maven/ctrip-workspace/javaweb-res/javaweb-serverlet/src/main/java/com/czh/javaweb/web/registerServlet.java
 /Users/cuizhiheng/maven/ctrip-workspace/javaweb-res/javaweb-serverlet/src/main/java/com/czh/javaweb/response/ResponseDemo2.java
 /Users/cuizhiheng/maven/ctrip-workspace/javaweb-res/javaweb-serverlet/src/main/java/com/czh/javaweb/web/Servlet4.java
 /Users/cuizhiheng/maven/ctrip-workspace/javaweb-res/javaweb-serverlet/src/main/java/com/czh/javaweb/web/ServletDemo.java
