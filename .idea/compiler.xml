@@ -9,12 +9,12 @@
         <module name="branddemo" />
         <module name="javaweb-serverlet" />
         <module name="cookie" />
-        <module name="filter-demo" />
         <module name="request-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="cookie-demo" target="1.7" />
+      <module name="filter-demo" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -5,8 +5,8 @@ import javax.servlet.annotation.WebFilter;
 import java.io.IOException;
 
 
-//@WebFilter("/hello.jsp")
-@WebFilter("/*")
+@WebFilter("/hello.jsp")
+//@WebFilter("/*")
 public class FilterDemo2 implements Filter {
 
 
