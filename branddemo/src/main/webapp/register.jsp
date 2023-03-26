@@ -57,10 +57,14 @@
 </div>
 
 <script>
+    // 点击看不清换图片，点击的时候重新访问servlet就行
+    // 同一个servlet地址会被缓存，为啥要加后面一长串，因为时间是唯一的，每次访问都是访问到一个新的地址就行
     document.getElementById("changeImg").onclick = function () {
         document.getElementById("checkCodeImg").src = "/brand-demo/checkCodeServlet?"+new Date().getMilliseconds();
     }
-
+    // 点击图片换图片
+    document.getElementById("checkCodeImg").onclick = function () {
+        document.getElementById("checkCodeImg").src = "/brand-demo/checkCodeServlet?"+new Date().getMilliseconds();}
 </script>
 </body>
 </html>
