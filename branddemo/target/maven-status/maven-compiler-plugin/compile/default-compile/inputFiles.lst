@@ -1,0 +1,13 @@
+/Users/cuizhiheng/maven/ctrip-workspace/javaweb-res/branddemo/src/main/java/com/czh/javaweb/mapper/UserMapper.java
+/Users/cuizhiheng/maven/ctrip-workspace/javaweb-res/branddemo/src/main/java/com/czh/javaweb/service/BrandService.java
+/Users/cuizhiheng/maven/ctrip-workspace/javaweb-res/branddemo/src/main/java/com/czh/javaweb/pojo/Brand.java
+/Users/cuizhiheng/maven/ctrip-workspace/javaweb-res/branddemo/src/main/java/com/czh/javaweb/pojo/User.java
+/Users/cuizhiheng/maven/ctrip-workspace/javaweb-res/branddemo/src/main/java/com/czh/javaweb/web/deleteByIdServlet.java
+/Users/cuizhiheng/maven/ctrip-workspace/javaweb-res/branddemo/src/main/java/com/czh/javaweb/web/updateServlet.java
+/Users/cuizhiheng/maven/ctrip-workspace/javaweb-res/branddemo/src/main/java/com/czh/javaweb/web/addServlet.java
+/Users/cuizhiheng/maven/ctrip-workspace/javaweb-res/branddemo/src/main/java/com/czh/javaweb/service/UserService.java
+/Users/cuizhiheng/maven/ctrip-workspace/javaweb-res/branddemo/src/main/java/com/czh/javaweb/web/selectAllServlet.java
+/Users/cuizhiheng/maven/ctrip-workspace/javaweb-res/branddemo/src/main/java/com/czh/javaweb/mapper/BrandMapper.java
+/Users/cuizhiheng/maven/ctrip-workspace/javaweb-res/branddemo/src/main/java/com/czh/javaweb/util/SqlSessionFactoryUtils.java
+/Users/cuizhiheng/maven/ctrip-workspace/javaweb-res/branddemo/src/main/java/com/czh/javaweb/web/loginServlet.java
+/Users/cuizhiheng/maven/ctrip-workspace/javaweb-res/branddemo/src/main/java/com/czh/javaweb/web/selectById.java

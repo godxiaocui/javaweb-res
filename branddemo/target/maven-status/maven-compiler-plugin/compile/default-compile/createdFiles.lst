@@ -1,0 +1,12 @@
+com/czh/javaweb/web/deleteByIdServlet.class
+com/czh/javaweb/web/addServlet.class
+com/czh/javaweb/web/registerServlet.class
+com/czh/javaweb/web/updateServlet.class
+com/czh/javaweb/mapper/BrandMapper.class
+com/czh/javaweb/web/selectAllServlet.class
+com/czh/javaweb/util/SqlSessionFactoryUtils.class
+com/czh/javaweb/service/BrandService.class
+com/czh/javaweb/util/CheckCodeUtil.class
+com/czh/javaweb/web/checkCodeServlet.class
+com/czh/javaweb/web/selectById.class
+com/czh/javaweb/pojo/Brand.class

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/branddemo" />
+    <file type="web" url="file://$PROJECT_DIR$/cookie-demo" />
+    <file type="web" url="file://$PROJECT_DIR$/javaweb-serverlet" />
+    <file type="web" url="file://$USER_HOME$/尚硅谷/黑马javaweb/JavaWeb-资料/day12-Filter&amp;Listener&amp;AJAX/01-Filter&amp;Listener/代码/filter-demo" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/javaweb-serverlet/pom.xml" />
+        <option value="$PROJECT_DIR$/branddemo/pom.xml" />
+        <option value="$PROJECT_DIR$/cookie/pom.xml" />
+        <option value="$PROJECT_DIR$/cookie-demo/pom.xml" />
+        <option value="$USER_HOME$/尚硅谷/黑马javaweb/JavaWeb-资料/day12-Filter&amp;Listener&amp;AJAX/01-Filter&amp;Listener/代码/filter-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/request-demo/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK" />
+</project>
