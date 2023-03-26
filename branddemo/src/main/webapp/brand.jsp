@@ -23,7 +23,7 @@
         <th>操作</th>
 
     </tr>
-
+<h1>${user.username}，欢迎你</h1>
 
     <c:forEach items="${brands}" var="brand" varStatus="status">
         <tr align="center">
