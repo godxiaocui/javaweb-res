@@ -9,6 +9,7 @@
         <module name="branddemo" />
         <module name="javaweb-serverlet" />
         <module name="cookie" />
+        <module name="vue-demo" />
         <module name="request-demo" />
       </profile>
     </annotationProcessing>

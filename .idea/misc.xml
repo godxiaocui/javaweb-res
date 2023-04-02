@@ -6,6 +6,7 @@
     <file type="web" url="file://$PROJECT_DIR$/cookie-demo" />
     <file type="web" url="file://$PROJECT_DIR$/filter-demo" />
     <file type="web" url="file://$PROJECT_DIR$/javaweb-serverlet" />
+    <file type="web" url="file://$PROJECT_DIR$/vue-demo" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -16,6 +17,7 @@
         <option value="$PROJECT_DIR$/cookie-demo/pom.xml" />
         <option value="$USER_HOME$/尚硅谷/黑马javaweb/JavaWeb-资料/day12-Filter&amp;Listener&amp;AJAX/01-Filter&amp;Listener/代码/filter-demo/pom.xml" />
         <option value="$PROJECT_DIR$/request-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/vue-demo/pom.xml" />
       </list>
     </option>
   </component>

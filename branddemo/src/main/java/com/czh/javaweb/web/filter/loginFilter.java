@@ -21,7 +21,7 @@ public class loginFilter implements Filter {
 
     @Override
     public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws ServletException, IOException {
-        // 判断访问的路径是否和登陆相关
+        // 判断访问的路径是否和登陆相关,一个jsp多把静态信息都来请求一遍
         String [] urls={"/login.jsp","/imgs/","/css/","loginServlet",
         "/register.jsp","registerServlet","checkCodeServlet"};
         //chain.doFilter(request, response);
