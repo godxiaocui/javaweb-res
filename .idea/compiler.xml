@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="branddemo" />
-        <module name="javaweb-serverlet" />
         <module name="cookie" />
-        <module name="vue-demo" />
+        <module name="brand-case" />
         <module name="request-demo" />
+        <module name="brand-demo" />
+        <module name="javaweb-serverlet" />
+        <module name="vue-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
