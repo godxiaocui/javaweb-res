@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--起别名-->
+    <typeAliases>
+        <package name="com.itheima.pojo"/>
+    </typeAliases>
+
+    <environments default="development">
+        <!--
+environment 设置一个具体的连接数据库的环境
+id 不能重复唯一标识
+ctrl+shift+/快捷注释
+-->
+        <environment id="development">
+            <!--
+            transactionManager 事务管理
+            type：设置事务管理的方式
+            type  JDBC|MANAGE
+            JDBC 原生的JDBC 原生事务管理
+            MANAGE 类似spring
+            -->
+            <transactionManager type="JDBC"/>
+            <!--
+                dataSource数据源；比如德鲁伊
+                type 数据源类型
+                type：“POOLED|UNPOOLED|JNDI”
+                POOLED使用数据库连接池，帮助我们管理文件
+                UNPOOLED 不使用数据库连接 池。每次新的连接
+                JNDI 上下文的连接
+            -->
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://localhost:3306/javaweb?serverTimezone=UTC"/>
+                <property name="username" value="root"/>
+                <property name="password" value="czh66221183"/>
+            </dataSource>
+        </environment>
+
+        <environment id="test">
+
+            <transactionManager type="JDBC"/>
+
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://localhost:3306/javaweb?serverTimezone=UTC"/>
+                <property name="username" value="root"/>
+                <property name="password" value="czh66221183"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <mappers>
+        <!--扫描mapper-->
+        <package name="com.itheima.mapper"/>
+    </mappers>
+</configuration>
