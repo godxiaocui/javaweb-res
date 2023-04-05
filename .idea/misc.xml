@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/brand-case" />
     <file type="web" url="file://$PROJECT_DIR$/branddemo" />
     <file type="web" url="file://$PROJECT_DIR$/cookie-demo" />
     <file type="web" url="file://$PROJECT_DIR$/filter-demo" />
@@ -22,8 +23,9 @@
         <option value="$PROJECT_DIR$/vue-demo/pom.xml" />
         <option value="$USER_HOME$/尚硅谷/黑马javaweb/JavaWeb-资料/day13-Vue&amp;Element/01-Vue&amp;ElementUI/代码/brand-demo/pom.xml" />
         <option value="$USER_HOME$/尚硅谷/黑马javaweb/JavaWeb-资料/day13-Vue&amp;Element/02-综合案例/资料/01-初始工程/brand-case/pom.xml" />
+        <option value="$PROJECT_DIR$/brand-case/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>

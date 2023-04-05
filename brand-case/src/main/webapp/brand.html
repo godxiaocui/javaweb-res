@@ -175,7 +175,7 @@
                 var _this=this
                 axios({
                     method:"get",
-                    url:"http://localhost:8080/selectALLServlet"
+                    url:"http://localhost:8080/brand/selectAll"
                 }).then(function (resp){
                     _this.tableData=resp.data;
                 })
@@ -205,7 +205,7 @@
                 var _this=this
                 axios({
                     method: "post",
-                    url:"http://localhost:8080/addServlet",
+                    url:"http://localhost:8080/brand/add",
                     data:_this.brand
                 }).then(function (resp){
                     if(resp.data == "success"){
