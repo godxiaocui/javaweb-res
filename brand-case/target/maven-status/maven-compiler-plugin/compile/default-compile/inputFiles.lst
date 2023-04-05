@@ -1,6 +1,9 @@
-/Users/cuizhiheng/尚硅谷/黑马javaweb/JavaWeb-资料/day13-Vue&Element/02-综合案例/资料/01-初始工程/brand-case/src/main/java/com/itheima/pojo/Brand.java
-/Users/cuizhiheng/尚硅谷/黑马javaweb/JavaWeb-资料/day13-Vue&Element/02-综合案例/资料/01-初始工程/brand-case/src/main/java/com/itheima/util/SqlSessionFactoryUtils.java
-/Users/cuizhiheng/尚硅谷/黑马javaweb/JavaWeb-资料/day13-Vue&Element/02-综合案例/资料/01-初始工程/brand-case/src/main/java/com/itheima/web/SelectALLServlet.java
-/Users/cuizhiheng/尚硅谷/黑马javaweb/JavaWeb-资料/day13-Vue&Element/02-综合案例/资料/01-初始工程/brand-case/src/main/java/com/itheima/service/BrandService.java
-/Users/cuizhiheng/尚硅谷/黑马javaweb/JavaWeb-资料/day13-Vue&Element/02-综合案例/资料/01-初始工程/brand-case/src/main/java/com/itheima/service/impl/BrandServiceImpl.java
-/Users/cuizhiheng/尚硅谷/黑马javaweb/JavaWeb-资料/day13-Vue&Element/02-综合案例/资料/01-初始工程/brand-case/src/main/java/com/itheima/mapper/BrandMapper.java
+D:\javaweb\javaweb-itheima\javaweb-res\brand-case\src\main\java\com\itheima\web\SelectALLServlet.java
+D:\javaweb\javaweb-itheima\javaweb-res\brand-case\src\main\java\com\itheima\util\SqlSessionFactoryUtils.java
+D:\javaweb\javaweb-itheima\javaweb-res\brand-case\src\main\java\com\itheima\web\addServlet.java
+D:\javaweb\javaweb-itheima\javaweb-res\brand-case\src\main\java\com\itheima\service\impl\BrandServiceImpl.java
+D:\javaweb\javaweb-itheima\javaweb-res\brand-case\src\main\java\com\itheima\web\BrandServlet.java
+D:\javaweb\javaweb-itheima\javaweb-res\brand-case\src\main\java\com\itheima\pojo\Brand.java
+D:\javaweb\javaweb-itheima\javaweb-res\brand-case\src\main\java\com\itheima\web\BaseServlet.java
+D:\javaweb\javaweb-itheima\javaweb-res\brand-case\src\main\java\com\itheima\mapper\BrandMapper.java
+D:\javaweb\javaweb-itheima\javaweb-res\brand-case\src\main\java\com\itheima\service\BrandService.java
