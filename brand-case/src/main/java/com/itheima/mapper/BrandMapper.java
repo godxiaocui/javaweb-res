@@ -16,4 +16,7 @@ public interface BrandMapper {
 @Insert("insert into javaweb.tb_brand values(null,#{brand.brandName},#{brand.companyName},#{brand.ordered},#{brand.description},#{brand.status}) ")
     @ResultMap("brandResultMap")
 void addBrand(@Param("brand") Brand brand);
+
+// 删除
+    void deleteByIds(@Param("ids") int [] ids);
 }

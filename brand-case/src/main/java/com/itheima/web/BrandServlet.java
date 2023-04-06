@@ -39,4 +39,16 @@ public class BrandServlet extends BaseServlet{
         response.getWriter().write("success");
 
     }
+
+    public void deleteByIds(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        // 1. 接受数据
+        BufferedReader reader = request.getReader();
+        String s1 = reader.readLine(); // json 字符串
+        // json转为Int[]数组
+        int[] ints = JSON.parseObject(s1, int[].class);
+
+        brandService.deleteByIds(ints);
+        response.getWriter().write("success");
+
+    }
 }

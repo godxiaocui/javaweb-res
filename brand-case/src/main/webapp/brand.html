@@ -44,7 +44,7 @@
 
     <el-row>
 
-        <el-button type="danger" plain>批量删除</el-button>
+        <el-button type="danger" plain @click="deleteByIds">批量删除</el-button>
         <el-button type="primary" plain @click="dialogVisible = true">新增</el-button>
 
     </el-row>
@@ -232,6 +232,51 @@
             handleCurrentChange(val) {
                 console.log(`当前页: ${val}`);
             }
+            // 批量删除
+            ,deleteByIds(){
+
+                this.$confirm('此操作将永久删除该文件, 是否继续?', '提示', {
+                    confirmButtonText: '确定',
+                    cancelButtonText: '取消',
+                    type: 'warning'
+                }).then(() => {
+                    for (let i = 0; i < this.multipleSelection.length; i++) {
+                        var multipleSelectionElement = this.multipleSelection[i];
+                        this.selectByIds[i]=multipleSelectionElement.id;
+                    }
+                    // 发送ajax异步请求添加数据
+                    var _this=this
+                    axios({
+                        method: "post",
+                        url:"http://localhost:8080/brand/deleteByIds",
+                        data:this.selectByIds
+                    }).then(function (resp){
+                        if(resp.data == "success"){
+                            // 关闭窗口
+                            _this.dialogVisible=false
+                            _this.selectAll();
+                            // 关闭
+                            _this.$message({
+                                showClose: true,
+                                message: '恭喜你，删除成功',
+                                type: 'success'
+                            });
+                        }
+
+
+
+                    })
+                }).catch(() => {
+                    this.$message({
+                        type: 'info',
+                        message: '已取消删除'
+                    });
+                });
+
+
+            }
+            // 2,发ajax请求
+
 
 
         },
@@ -255,7 +300,9 @@
                 multipleSelection: [],
                 // 表格数据
                 tableData: [
-                  ]
+                  ],
+                // 批量删除被选中的数组
+                selectByIds:[]
             }
         }
     })

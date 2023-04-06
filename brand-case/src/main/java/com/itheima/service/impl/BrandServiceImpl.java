@@ -31,4 +31,14 @@ public class BrandServiceImpl implements BrandService {
         sqlSession.close();
 
     }
+
+    @Override
+    public void deleteByIds(int[] ids) {
+        SqlSession sqlSession = sqlSessionFactory.openSession(true);
+        BrandMapper mapper = sqlSession.getMapper(BrandMapper.class);
+        mapper.deleteByIds(ids);
+        sqlSession.close();
+    }
+    // 删除
+
 }
